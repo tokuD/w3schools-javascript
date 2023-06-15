@@ -1,8 +1,7 @@
-const p = document.getElementById("demo") as HTMLParagraphElement;
-
+"use strict";
+const p = document.getElementById("demo");
 p.innerHTML = "Hello World";
-
-const body = document.querySelector("body")!;
+const body = document.querySelector("body");
 body.innerHTML = `
 <div>
   <ul>
